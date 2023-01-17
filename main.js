@@ -434,8 +434,8 @@
 // b = +prompt("Sonning tugash chegarasini ko'rsating"),
 // z = 0;
 // if(b > a && a%1 == 0 && a%1 == 0){
-//    for(i = a + 1; i < b; i++){
-//     z += i;
+//    for(a; a <= b; a++){
+//     z += a;
 //    }
 //    console.log(z);
 // }else{
@@ -569,23 +569,23 @@
 // }
 // console.log(yigindi);
 
-// 47. n butun son va x haqiqiy sonlar berilgan (n>0) Quydagi yig'indi hisoblang.1+x+x2/2!+x3/3!+..+xn/n!
+// 47. n butun son va x haqiqiy sonlar berilgan (n>0) Quydagi yig'indi hisoblang.1+x+x2/2!+x3/3!+..+xn/n! 3+4.5+4.5+3.375
 
-    // let n = +prompt("N ni kiriting"),
-    // x = +prompt("X ni kiriting"),
-    // kopaytma = 1,
-    // yigindi = 0;
+// let n = +prompt("N ni kiriting"),
+//     x = +prompt("X ni kiriting"),
+//     kopaytma = 1,
+//     yigindi = 0;
 
-    // if(n > 0){
-    //     for(i = 0; i <= n; i++){
-    //         kopaytma *= i
-    //         // yigindi += kopaytma 
-    //     }
-    //     c = (x**i)/kopaytma
-    //     console.log(c);
-    // }else{
-    //     console.log("N > 0 dan bo'lishi shart");
-    // }
+// if (n > 0) {
+//     for (i = 0; i <= n; i++) {
+//         kopaytma *= i;
+//         c = ((x ** i) / kopaytma);
+//         yigindi += c;
+//     }
+//     console.log(1+yigindi);
+// } else {
+//     console.log("N > 0 dan bo'lishi shart");
+// }
 
 
 
@@ -603,8 +603,18 @@
 
 // 49. n va x sonlar berilgan quydagi yigindini topuvchi dastur tuzing. 1(1,2,3…x) + 2(1,2,3..x) + .. + n(1,2,3,..x)
 
-// Masala xato berilgan
+// let  n = +prompt("X ni kiriting"),
+// x = +prompt("X ni kiriting"),
+// xyigindi = 0,
+// uyigindi = 0;
 
+//     for(let j = 0; j <= x; j++){
+//         xyigindi += j;
+//         uyigindi = j*(xyigindi);
+//     }for(let i = 0; i <= n; i++){
+//         uyigindi = i*(xyigindi);
+//     }
+//     console.log(uyigindi);
 
 
 
